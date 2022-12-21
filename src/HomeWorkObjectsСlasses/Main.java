@@ -18,9 +18,16 @@ public class Main {
         System.out.println("Автор - " + author2.getAuthorName() + " " + author2.getAuthorFamily());
         System.out.println("Название - " + javaCompleteGuide.getBookName());
         System.out.println("Год публикации - " + javaCompleteGuide.getPublishingYear());
+
         javaCompleteGuide.setPublishingYear(2012);
-
         System.out.println("Год публикации - " + javaCompleteGuide.getPublishingYear());
+        System.out.println();
 
+        // ДЗ 2
+
+        System.out.println(author1);
+        System.out.println(author1.equals(author2));
+        System.out.println(philosophyJava.equals(javaCompleteGuide));
     }
+
 }
